@@ -23,7 +23,7 @@ else:
 
 # Store phone number if user wants to buy tires
 buy = input("Do you want to buy tires with these dimensions? (yes or no): ")
-if buy.lower() == "yes":
+if buy.lower() == "yes" or buy.lower() == "y":
     phone = input("Please enter your phone number: ")
     today = datetime.date.today().strftime("%m/%d/%Y")
     with open("volumes.txt", "a") as f:
