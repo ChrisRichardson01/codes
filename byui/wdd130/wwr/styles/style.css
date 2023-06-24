@@ -261,3 +261,30 @@ main section img {
       margin-top: 25px;
   }
 }
+
+.center-text {
+  text-align: center;
+}
+
+.custom-center {
+  display: block;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.center-image {
+  padding: 30px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
